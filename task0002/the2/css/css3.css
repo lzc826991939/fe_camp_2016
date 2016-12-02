@@ -1,0 +1,47 @@
+body,html{
+    height:100%;
+    margin-top: 0;
+
+}
+body {
+    background-image: url("1113735_f=download.png");
+    background-size: cover;
+    background-repeat:repeat;
+    text-align: center;
+    margin:0 auto;
+}
+.box{
+    margin:0 auto;
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+.img_box{
+    display: none;
+}
+.btn_1{
+    display: none;
+}
+
+.btn_2{
+   display: none;
+}
+.btn {
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    right:650px;
+    bottom: 300px;
+}
+.btn button{
+    width:200px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 350px;
+    font-family: "华文新魏";
+    font-size:30px;
+    background-image: url("04bf799f896b5dc2.jpg");
+    cursor:pointer;
+    border-radius: 100px
+}

@@ -1,0 +1,65 @@
+body,html{
+    height:100%;
+    margin-top: 0;
+
+}
+body {
+    background-image: url("bw-bg.png");
+    background-size: cover;
+    background-repeat:repeat;
+    margin:0 auto;
+}
+.box{
+    margin:0 auto;
+    height:100%;
+    width:100%;
+}
+.img_box{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    right: 700px;
+    bottom: 100px;
+
+}
+.btn_1{
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+}
+
+.btn_2{
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+}
+.btn button{
+    display: none;
+}
+
+.btn_1 button{
+    width:200px;
+    height: 55px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 100px;
+    font-family: "华文新魏";
+    font-size:30px;
+    background-image: url("btn-gray.png");
+    cursor:pointer;
+}
+.btn_2 button{
+    width:200px;
+    height: 55px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 350px;
+    font-family: "华文新魏";
+    font-size:30px;
+    background-image: url("btn-blue.png");
+    cursor:pointer;
+}

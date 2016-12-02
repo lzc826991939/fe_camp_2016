@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link id=csss rel="stylesheet" type="text/css" href="css/css3.css"/>
+</head>
+<body>
+<EMBED SRC="nk.m4a" autostart=true hidden="true" loop=true width=0height=0 loop="100"></EMBED>
+<div class="box">
+<div class="img_box">
+    <img id="img"  src="xx.png">
+</div>
+<div class="btn_1">
+   <button id="xx">小新</button>
+</div>
+    <div class="btn_2">
+       <button id="bw">巴卫</button>
+    </div>
+    <div class="btn">
+        <button id="change"></button>
+    </div>
+</div>
+<script>
+    var btn1=document.getElementById("xx");
+    var btn2=document.getElementById("bw");
+    var btn3=document.getElementById("change");
+    btn1.onclick=function() {
+        img.setAttribute("src", "xx.png");
+        var obj = document.getElementById("csss");
+        obj.setAttribute("href","css/css1.css");
+    }
+    btn2.onclick=function(){
+        img.setAttribute("src","bw.png");
+        var obj = document.getElementById("csss");
+        obj.setAttribute("href","css/css2.css");
+    }
+    btn3.onclick=function() {
+        img.setAttribute("src", "xx.png");
+        var obj = document.getElementById("csss");
+        obj.setAttribute("href","css/css1.css");
+    }
+</script>
+</body>
+</html>

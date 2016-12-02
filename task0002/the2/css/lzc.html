@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/ss.css"rel="stylesheet">
+
+</head>
+<body>
+<div class="img_box">
+  <img id="img"src="bw-bg.png">
+    <img id="img_tu"src="xx.png">
+</div>
+<div class="btn_box">
+    <button>小新</button>
+    <button>巴卫</button>
+</div>
+<script>
+    var btn1=ducument.getElementsByTagName("bw");
+    var btn2=ducument.getElementById("xx");
+    var img=document.getElementById("img");
+    function  switchpicture(id){
+        img.setAttribute("src",+id+".jpg");
+    }
+    btn1.onclick=function(){
+        switchpicture("bw");
+    }
+    btn2.onclick=function(){
+        switchpicture("xx");
+    }
+</script>
+</body>
+</html>
